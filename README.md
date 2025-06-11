@@ -11,8 +11,7 @@
 |3|[Nguyễn Mỹ Thống](https://github.com/iknizzz1807)|23521527|
 |4|[Phạm Tài Lộc]()|23520865|
 ## Get started
-1. Download preprocessed datasets
-Download the datasets from this [google drive link](https://drive.google.com/open?id=1Bf0beMN_ieiM3JpprghaoOwQe9QJIyAN).
+1. Download preprocessed datasets [google drive link](https://drive.google.com/open?id=1Bf0beMN_ieiM3JpprghaoOwQe9QJIyAN).
 
 2. Make splits
 ```bash
@@ -70,13 +69,3 @@ Please remember to specify the naming format of your video frames on this [line]
 
 ## How to use your own data
 We preprocess data by extracting image features for videos and save them to `h5` file. The file format looks like [this](https://github.com/KaiyangZhou/vsumm-reinforce/issues/1#issuecomment-363492711). After that, you can make split via `create_split.py`. If you wanna train policy network using the entire dataset, just do `train_keys = dataset.keys()`. [Here](https://github.com/KaiyangZhou/pytorch-vsumm-reinforce/blob/master/main.py#L75) is the code where we initialize dataset. If you have any problems, feel free to contact me by email or raise an `issue`.
-
-## Citation
-```
-@article{zhou2017reinforcevsumm, 
-   title={Deep Reinforcement Learning for Unsupervised Video Summarization with Diversity-Representativeness Reward},
-   author={Zhou, Kaiyang and Qiao, Yu and Xiang, Tao}, 
-   journal={arXiv:1801.00054}, 
-   year={2017} 
-}
-```
