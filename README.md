@@ -1,10 +1,10 @@
 # Deep Reinforcement Learning for Unsupervised Video Summarization with Diversity-Representativeness Reward.
 
-### LỜI GIỚI THIỆU
-Đây là đồ án cuối kỳ môn Trí tuệ nhân tạo lớp CS106.P21, được thực hiện bởi nhóm camonvidaden và dưới sự hướng dẫn của TS. Lương Ngọc Hoàng.
+### INTRODUCTION
+This is the final project for the Artificial Intelligence course (CS106.P21), carried out by the group camonvidaden under the supervision of PhD. Luong Ngoc Hoang.
 
-#### Thành viên nhóm camonvidaden
-|STT|Tên thành viên|MSSV|
+#### MEMBER
+|#|Full Name|Student ID|
 |:-:|:-:|:-:|
 |1|[Nguyễn Thắng Lợi](https://github.com/NT-Loi)|23520872|
 |2|[Trần Tuấn Kiệt](https://github.com/trtkiet)|23520822|
