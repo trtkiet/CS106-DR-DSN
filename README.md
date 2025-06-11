@@ -1,9 +1,9 @@
 # Deep Reinforcement Learning for Unsupervised Video Summarization with Diversity-Representativeness Reward.
 
 ### LỜI GIỚI THIỆU
-Đây là đồ án cuối kỳ môn Nhập môn Công nghệ Phần mềm lớp SE104.N22, được thực hiện bởi nhóm 5 và dưới sự hướng dẫn của ThS. Đỗ Thị Thanh Tuyền.
+Đây là đồ án cuối kỳ môn Trí tuệ nhân tạo lớp CS106.P21, được thực hiện bởi nhóm camonvidaden và dưới sự hướng dẫn của TS. Lương Ngọc Hoàng.
 
-#### Thành viên nhóm 5
+#### Thành viên nhóm camonvidaden
 |STT|Tên thành viên|MSSV|
 |:-:|:-:|:-:|
 |1|[Nguyễn Thắng Lợi](https://github.com/NT-Loi)|23520872|
@@ -12,15 +12,7 @@
 |4|[Phạm Tài Lộc]()|23520865|
 ## Get started
 1. Download preprocessed datasets
-```bash
-git clone https://github.com/KaiyangZhou/pytorch-vsumm-reinforce
-cd pytorch-vsumm-reinforce
-# download datasets.tar.gz (173.5MB)
-wget http://www.eecs.qmul.ac.uk/~kz303/vsumm-reinforce/datasets.tar.gz
-tar -xvzf datasets.tar.gz
-```
-
-**Updates**: The QMUL server is inaccessible. Download the datasets from this [google drive link](https://drive.google.com/open?id=1Bf0beMN_ieiM3JpprghaoOwQe9QJIyAN).
+Download the datasets from this [google drive link](https://drive.google.com/open?id=1Bf0beMN_ieiM3JpprghaoOwQe9QJIyAN).
 
 2. Make splits
 ```bash
